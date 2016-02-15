@@ -2,6 +2,11 @@
 strong { 
 	font-weight: 600; 
 }
+
+.f-300{
+	font-weight: 300;
+}
+
 .f-600 {
 	font-weight: 600;
 }
@@ -9,13 +14,46 @@ strong {
 	font-weight: 400;
 }
 
+.f-1{
+	 font-size: 1.5rem;
+}
+
+.f-4{
+	font-size: 4rem;
+}
 /* Paddings */
 .pd-0{
 	padding: 0;
 }
+
+.pd-2 {
+	padding: 2rem !important;
+}
+
+.pv-0 {
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+
+.pv-2{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+.pv-56 {
+	padding-top: 56px !important;
+	padding-bottom: 56px !important;
+}
+
 .pd-5 {
 	padding: 5%;
 }
+
+.ph-7{
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
 .pd-tbrl{
 	padding: 2% 4% 0 4%;
 }
@@ -34,6 +72,23 @@ strong {
 .pt-10{
 	padding-top: 10%;
 }
+
+.pt-42{
+	padding-top: 42px;
+}
+
+.pb-11{
+	padding-bottom: 11rem;
+}
+
+.pb-42{
+	padding-bottom: 42px;
+}
+
+.pb-63{
+	padding-bottom: 63px;
+}
+
 .pb-5{
 	padding-bottom: 5%;
 }
@@ -46,9 +101,26 @@ strong {
 .pr-5{
 	padding-right: 5%;
 }
+
 .mg-0{
 	margin: 0;
 }
+
+.mt-0{
+	margin-top: 0;
+}
+
+.mt-7 {
+	margin-top: 7px !important;
+}
+
+.mt-14{
+	margin-top: 14px !important;
+}
+.mt-35 {
+	margin-top: 35px !important;
+}
+
 .mg-right-30{
 	margin-right: 30px;
 }
@@ -61,15 +133,40 @@ strong {
 .mg-top-50{
 	margin-top: 50px;
 }
+
+.mb-0 {
+	margin-bottom: 0px !important;
+}
+
+.mb-7 {
+	margin-bottom: 7px !important;
+}
+.mb-21 {
+	margin-bottom: 21px !important;
+}
+
+.mb-35{
+	margin-bottom: 35px;
+}
+
+.mb-42{
+	margin-bottom: 42px;
+}
+
+.mt-63 {
+	margin-top: 63px;
+}
 .mg-btm-50{
 	margin-bottom: 50px;
 }
 .w-100{
 	width: 100%;
 }
+
 .lh{
-	line-height: 1.5;
+	line-height: 4.5rem;
 }
+
 .text-center{
 	text-align: center;
 }
@@ -91,6 +188,10 @@ strong {
  	color: #0dc0c0;
 }
 
+.text-about{
+	color:#666666;
+}
+
 .active {
 	color: #0dc0c0;
 }
@@ -101,10 +202,27 @@ strong {
 .bg-gray{
 	background-color: rgb(244, 244, 244);
 }
+
+.bg-green{
+	background-color:#0DC0C0;
+}
+
+.bg-black{
+	background-color: #222222;
+}
+
+.bg-white{
+	background-color: white;
+}
+
 .bg-img-block {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.border-bottom-gray {
+	border-bottom: 1px solid gray !important;
 }
 
 .pull-left {
@@ -114,6 +232,25 @@ strong {
 .pull-right {
 	float: right;
 }
+
 .Opensans{
 	font-family: "Open Sans";
+}
+
+.transparent {
+        /*background-color: transparent; */
+        background: url('../img/bg_transparent.png');
+        border:none;
+        border-radius: 0;
+        font-weight: 600;
+}
+
+.bbt-none{
+	border: none;
+}
+
+hr{
+	 border: -1px solid #DDDDDD; 
+	 width: 80%;
+	 align-content: center;
 }
