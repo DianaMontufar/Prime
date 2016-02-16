@@ -9,7 +9,7 @@ html{
 /*---------------------------------HEADER----------------------------------------*/
 .bg-head{
 	background:url("../img/background/hero.jpg");
-	 background-repeat: no-repeat;
+	background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 0%;
 	height: 680px; 
@@ -275,7 +275,8 @@ html{
 }
 @media only screen and (max-width: 480px) {
 	.btn-portafolio {
-		margin-top: 30px
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 }
 
