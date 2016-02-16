@@ -9,16 +9,10 @@ html{
 /*---------------------------------HEADER----------------------------------------*/
 .bg-head{
 	background:url("../img/background/hero.jpg");
-	background-size: 100%;
-	/*background-size: cover;
-	background-position: center;*/
-	background-repeat: no-repeat;
+	 background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 0%;
 	height: 680px; 
-}
-@media only screen and (max-width: 480px) {
-	.bg-head {
-		background-size: cover !important;
-	}
 }
 @media only screen and (max-width: 480px) {
 	.pd-t-respo {
